@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>  
+    <style>
+      table{
+        border: 1px solid red;
+        margin-bottom: 50px;
+      }
+      th{
+        border: 1px solid green;
+      }
+      td{
+        border: 1px solid rgb(126, 0, 128);
+      }
+    </style>
+</head>
+<body>
+  <table border>
+    <tr>
+      <th>name</th>
+      <th>age</th>
+      <th>email</th>
+    </tr>
+    <tr>
+      <td>Eric</td>
+      <td>30</td>
+      <td>eric@super-code.de</td>
+    </tr>
+    <tr>
+      <td><h1>simon</h1></td>
+      <td>28</td>
+      <th><a href="mailto:simon@super-code.de">contact me</a></th>
+    </tr>
+  </table>
+<!-- colspan: streck die zelle horizontal -->
+  <table border>
+    <h1>menschen im alter von :</h1>
+    <tr>
+      <th colspan="2">20</th>
+      <th colspan="2">40</th>
+      <th colspan="2">60</th>
+      <th colspan="2">80</th>
+    </tr>
+    <tr>
+      <td>Frau</td>
+      <td>Mann</td>
+      <td>Frau</td>
+      <td>Mann</td>
+      <td>Frau</td>
+      <td>Mann</td>
+      <td>Frau</td>
+      <td>Mann</td>
+    </tr>
+    <tr>
+      <td>22</td>
+      <td>33</td>
+      <td>55</td>
+      <td>66</td>
+      <td>33</td>
+      <td>43</td>
+      <td>57</td>
+      <td>99</td>
+    </tr>
+  </table>
+<!-- rowspan: streckt die zelle vertikal -->
+  <table border>
+    <tr>
+      <th colspan="2">Name:</th>
+      <th colspan="2">Bob</th>
+      <th colspan="2">Alice</th>
+    </tr>
+    <tr>
+      <th rowspan="5">favorite</th>
+      <th>color</th>
+      <td>blue</td>
+      <td>purple</td>
+      <td>purple</td>
+      <td>purple</td>
+    </tr>
+    <tr>
+      <th>flavor</th>
+      <td>banana</td>
+      <td>apple</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>5</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>8</td>
+      <td>9</td>
+    </tr>
+
+  </table>
+</body>
+</html>
